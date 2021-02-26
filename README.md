@@ -9,6 +9,9 @@ My project providing statistics on Motivate bikeshare usage in New York, Chicago
 
 ### Files used
 Bikeshare2.py
+new_york_city.csv
+chicago.csv
+washington.csv
 
 ### Credits
 I referred to unity's amazing course content extensively throughout this project and the consistent
