@@ -24,7 +24,6 @@ def get_filters():
             break
         else:
             print("No city detected. Check for spelling")
-
     # get user input for month (all, january, february, ... , june)
     months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
     while True:
@@ -34,7 +33,6 @@ def get_filters():
            break
         else:
            print("No month detected. Check for spelling.")
-
     # get user input for day of week (all, monday, tuesday, ... sunday)
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
     while True:
@@ -167,10 +165,8 @@ def user_stats(df, city):
     else:
         print("\nWashington has no info on gender or D.O.B.\n")
 
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
 
     num = 0
     while True:
@@ -196,7 +192,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
