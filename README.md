@@ -13,3 +13,5 @@ Bikeshare2.py
 ### Credits
 I referred to unity's amazing course content extensively throughout this project and the consistent
 packaging of information benefitted my learning greatly.
+I also used this youtube video
+https://www.youtube.com/watch?v=kxyt3ohLuDI
